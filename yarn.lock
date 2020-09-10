@@ -16006,9 +16006,9 @@ passport-okta-oauth@^0.0.1:
     uid2 "0.0.3"
 
 passport-saml@^1.3.3:
-  version "1.3.3"
-  resolved "https://registry.npmjs.org/passport-saml/-/passport-saml-1.3.3.tgz#cbea1a2b21ff32b3bc4bfd84dc39c3a370df9935"
-  integrity sha512-54ecY/A6UEsyCehJws6a+J6THvwtYnGl9cnAUxx5DjsuKgZrDs0tSy58K4hCk1XG/LOcdQSF1TR3xlRXgTULhA==
+  version "1.3.4"
+  resolved "https://registry.npmjs.org/passport-saml/-/passport-saml-1.3.4.tgz#d973a8525fd61df841669405d0750ae04a3f85d4"
+  integrity sha512-FYkRAt3pbmUpm/FsH97U/xYDnd1+z3FuGYe3IUOQPRgyoDg2ub8LYofst4UU49u65aAWHHSfXk6S3CdSMllq3A==
   dependencies:
     debug "^3.1.0"
     passport-strategy "*"
