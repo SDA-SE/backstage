@@ -33,7 +33,7 @@
   "devDependencies": {
     "@backstage/cli": "^0.2.0",
     "@types/supertest": "^2.0.8",
-    "msw": "^0.20.5",
+    "msw": "^0.22.0",
     "supertest": "^4.0.2"
   },
   "files": [

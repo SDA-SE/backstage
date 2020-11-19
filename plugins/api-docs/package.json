@@ -50,7 +50,7 @@
     "@types/react": "^16.9",
     "@types/swagger-ui-react": "^3.23.3",
     "cross-fetch": "^3.0.6",
-    "msw": "^0.21.2"
+    "msw": "^0.22.0"
   },
   "files": [
     "dist"
