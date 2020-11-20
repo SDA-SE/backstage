@@ -27,7 +27,7 @@
   "devDependencies": {
     "@backstage/cli": "^0.3.0",
     "@types/jest": "^26.0.7",
-    "msw": "^0.21.2"
+    "msw": "^0.22.1"
   },
   "files": [
     "dist"
