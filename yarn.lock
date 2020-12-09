@@ -844,14 +844,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
 
-"@babel/plugin-syntax-top-level-await@^7.12.1":
-  version "7.12.1"
-  resolved "https://registry.npmjs.org/@babel/plugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.12.1.tgz#dd6c0b357ac1bb142d98537450a319625d13d2a0"
-  integrity sha512-i7ooMZFS+a/Om0crxZodrTzNEPJHZrlMVGMTEpFAj6rYY/bKCddB0Dk/YxfPuYXOopuhKk/e1jV6h+WUU9XN3A==
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.10.4"
-
-"@babel/plugin-syntax-top-level-await@^7.8.3":
+"@babel/plugin-syntax-top-level-await@^7.12.1", "@babel/plugin-syntax-top-level-await@^7.8.3":
   version "7.12.1"
   resolved "https://registry.npmjs.org/@babel/plugin-syntax-top-level-await/-/plugin-syntax-top-level-await-7.12.1.tgz#dd6c0b357ac1bb142d98537450a319625d13d2a0"
   integrity sha512-i7ooMZFS+a/Om0crxZodrTzNEPJHZrlMVGMTEpFAj6rYY/bKCddB0Dk/YxfPuYXOopuhKk/e1jV6h+WUU9XN3A==
@@ -10628,6 +10621,13 @@ debug@^3.0.0, debug@^3.1.0, debug@^3.1.1, debug@^3.2.5, debug@^3.2.6:
   dependencies:
     ms "^2.1.1"
 
+debug@^4.3.0:
+  version "4.3.1"
+  resolved "https://registry.npmjs.org/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
+  integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
+  dependencies:
+    ms "2.1.2"
+
 debuglog@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/debuglog/-/debuglog-1.0.1.tgz#aa24ffb9ac3df9a2351837cfb2d279360cd78492"
@@ -13545,7 +13545,7 @@ graphql-upload@^8.0.2:
     http-errors "^1.7.3"
     object-path "^0.11.4"
 
-graphql@15.3.0, graphql@^15.3.0:
+graphql@15.3.0:
   version "15.3.0"
   resolved "https://registry.npmjs.org/graphql/-/graphql-15.3.0.tgz#3ad2b0caab0d110e3be4a5a9b2aa281e362b5278"
   integrity sha512-GTCJtzJmkFLWRfFJuoo9RWWa/FfamUHgiFosxi/X1Ani4AVWbeyBenZTNX6dM+7WSbbFfTo/25eh0LLkwHMw2w==
@@ -13556,6 +13556,11 @@ graphql@^14.5.3:
   integrity sha512-l0xWZpoPKpppFzMfvVyFmp9vLN7w/ZZJPefUicMCepfJeQ8sMcztloGYY9DfjVPo6tIUDzU5Hw3MUbIjj9AVVA==
   dependencies:
     iterall "^1.2.2"
+
+graphql@^15.3.0, graphql@^15.4.0:
+  version "15.4.0"
+  resolved "https://registry.npmjs.org/graphql/-/graphql-15.4.0.tgz#e459dea1150da5a106486ba7276518b5295a4347"
+  integrity sha512-EB3zgGchcabbsU9cFe1j+yxdzKQKAbGUWRb13DsrsMN1yyfmmIq+2+L5MqVWcDCE4V89R5AyUOi7sMOGxdsYtA==
 
 growly@^1.3.0:
   version "1.3.0"
@@ -17517,58 +17522,23 @@ ms@2.1.2, ms@^2.0.0, ms@^2.1.1:
   resolved "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-msw@^0.20.5:
-  version "0.20.5"
-  resolved "https://registry.npmjs.org/msw/-/msw-0.20.5.tgz#b6141080c0d8b17c451d9ca36c28cc47b4ac487a"
-  integrity sha512-hmEsey5BbVicMGt7aOh/GZ9ltga5N3tK6NiJXnbfCkAGKgnAVnjASr3i7Z+sWlZyY5uuMUFyLCEcqrlXxC6qIA==
-  dependencies:
-    "@open-draft/until" "^1.0.3"
-    "@types/cookie" "^0.4.0"
-    chalk "^4.1.0"
-    cookie "^0.4.1"
-    graphql "^15.3.0"
-    headers-utils "^1.2.0"
-    node-fetch "^2.6.0"
-    node-match-path "^0.4.4"
-    node-request-interceptor "^0.3.5"
-    statuses "^2.0.0"
-    yargs "^15.4.1"
-
-msw@^0.21.2:
-  version "0.21.2"
-  resolved "https://registry.npmjs.org/msw/-/msw-0.21.2.tgz#74ed10b8eb224325652a3c3812b5460dac297bd8"
-  integrity sha512-XOJehxtJThNFdMJdVjxDAbZ8KuC3UltOlO5nQDks0Q1yzSUqqKcVUjbKrH7T+K2hckBr0KEY2fwJHv21R4BV2A==
+msw@^0.24.1:
+  version "0.24.1"
+  resolved "https://registry.npmjs.org/msw/-/msw-0.24.1.tgz#2c10a85547c02d76de6c84a354c54ec6d989cc4a"
+  integrity sha512-1HD0Bq34x2I19CWXh+HPGqRbNmTT4D5MjVnyb6GN64AaB0UfXdg7EIwcfZ6J7KX8rcoNafEbhBDnilm+en0WnQ==
   dependencies:
     "@open-draft/until" "^1.0.3"
     "@types/cookie" "^0.4.0"
     chalk "^4.1.0"
     chokidar "^3.4.2"
     cookie "^0.4.1"
-    graphql "^15.3.0"
+    graphql "^15.4.0"
     headers-utils "^1.2.0"
     node-fetch "^2.6.1"
-    node-match-path "^0.4.4"
-    node-request-interceptor "^0.5.1"
+    node-match-path "^0.6.0"
+    node-request-interceptor "^0.5.3"
     statuses "^2.0.0"
-    yargs "^16.0.3"
-
-msw@^0.21.3:
-  version "0.21.3"
-  resolved "https://registry.npmjs.org/msw/-/msw-0.21.3.tgz#d073842f9570a08f4041806a2c7303a9b8494602"
-  integrity sha512-voPc/EJsjarvi454vSEuozZQQqLG4AUHT6qQL5Ah47lq7sGCpc7icByeUlfvEj5+MvaugN0c7JwXyCa2rxu8cA==
-  dependencies:
-    "@open-draft/until" "^1.0.3"
-    "@types/cookie" "^0.4.0"
-    chalk "^4.1.0"
-    chokidar "^3.4.2"
-    cookie "^0.4.1"
-    graphql "^15.3.0"
-    headers-utils "^1.2.0"
-    node-fetch "^2.6.1"
-    node-match-path "^0.4.4"
-    node-request-interceptor "^0.5.1"
-    statuses "^2.0.0"
-    yargs "^16.0.3"
+    yargs "^16.1.1"
 
 multicast-dns-service-types@^1.1.0:
   version "1.1.0"
@@ -17832,10 +17802,10 @@ node-libs-browser@^2.2.1:
     util "^0.11.0"
     vm-browserify "^1.0.1"
 
-node-match-path@^0.4.4:
-  version "0.4.4"
-  resolved "https://registry.npmjs.org/node-match-path/-/node-match-path-0.4.4.tgz#516a10926093c0cc6f237d020685b593b19baebb"
-  integrity sha512-pBq9gp7TG0r0VXuy/oeZmQsjBSnYQo7G886Ly/B3azRwZuEtHCY155dzmfoKWcDPGgyfIGD8WKVC7h3+6y7yTg==
+node-match-path@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.npmjs.org/node-match-path/-/node-match-path-0.6.0.tgz#4674742f4e15854045198ebc40d8b9b2d64aa2f6"
+  integrity sha512-mld1LbiLaufULAYFPAWgNEG4P0ccL49otlL/nbF5VBQLATuzfS1BGYV1rjRMsxbc0vcnasikFqGHoKDFMQylMw==
 
 node-modules-regexp@^1.0.0:
   version "1.0.0"
@@ -17896,22 +17866,13 @@ node-releases@^1.1.67:
   resolved "https://registry.npmjs.org/node-releases/-/node-releases-1.1.67.tgz#28ebfcccd0baa6aad8e8d4d8fe4cbc49ae239c12"
   integrity sha512-V5QF9noGFl3EymEwUYzO+3NTDpGfQB4ve6Qfnzf3UNydMhjQRVPR1DZTuvWiLzaFJYw2fmDwAfnRNEVb64hSIg==
 
-node-request-interceptor@^0.3.5:
-  version "0.3.5"
-  resolved "https://registry.npmjs.org/node-request-interceptor/-/node-request-interceptor-0.3.5.tgz#4b26159617829c9a70643012c0fdc3ae4c78ae43"
-  integrity sha512-lBwA3v00hxCW2xhhZHZ1ab5JMHoAnzgtbeaUXqTufRh7mpAG93ZOChj0btMDB1VZd+CKhCbtigsxCjmerKa2+w==
+node-request-interceptor@^0.5.3:
+  version "0.5.9"
+  resolved "https://registry.npmjs.org/node-request-interceptor/-/node-request-interceptor-0.5.9.tgz#f0498ae2889162523f58c1e1b4adc39f26e47163"
+  integrity sha512-M1a3aulCW/kqajDn/w+qBX86G4So7utJGlrODAjQ1piz/kR8ZaDfd/wrJnsuPtUM12F0YxsnXG8qRKFkIEIxsw==
   dependencies:
     "@open-draft/until" "^1.0.3"
-    debug "^4.1.1"
-    headers-utils "^1.2.0"
-
-node-request-interceptor@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.npmjs.org/node-request-interceptor/-/node-request-interceptor-0.5.1.tgz#b4757a033bde4412d9ffc4503804abb28ed962d2"
-  integrity sha512-ex5mlI5nGokxocomS2Rj2r1aspmt7qZoI8OvKLt24ylp1bYCzGQ+0XD911guCNDb/kKLMIGC67HHyeFrJCz7jA==
-  dependencies:
-    "@open-draft/until" "^1.0.3"
-    debug "^4.1.1"
+    debug "^4.3.0"
     headers-utils "^1.2.0"
 
 nodegit@0.27.0, nodegit@^0.27.0:

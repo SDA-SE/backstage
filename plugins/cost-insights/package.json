@@ -69,7 +69,7 @@
     "@types/regression": "^2.0.0",
     "@types/yup": "^0.29.8",
     "cross-fetch": "^3.0.6",
-    "msw": "^0.21.2"
+    "msw": "^0.24.1"
   },
   "files": [
     "dist",
