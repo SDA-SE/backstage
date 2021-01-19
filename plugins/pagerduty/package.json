@@ -52,7 +52,7 @@
     "@testing-library/user-event": "^12.0.7",
     "@types/jest": "^26.0.7",
     "@types/node": "^12.0.0",
-    "msw": "^0.21.2",
+    "msw": "^0.25.0",
     "node-fetch": "^2.6.1",
     "cross-fetch": "^3.0.6"
   },
