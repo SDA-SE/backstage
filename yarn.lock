@@ -13809,7 +13809,7 @@ fsevents@^1.2.7:
     bindings "^1.5.0"
     nan "^2.12.1"
 
-fsevents@^2.1.2, fsevents@~2.1.2:
+fsevents@^2.1.2:
   version "2.1.2"
   resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.1.2.tgz#4c0a1fb34bc68e543b4b82a9ec392bfbda840805"
   integrity sha512-R4wDiBwZ0KzpgOWetKDug1FZcYhqYnUYKtfZYt4mD5SBz76q0KR4Q9o7GIPamsVPGmW3EYPPJ0dOOjvx32ldZA==
@@ -23423,12 +23423,12 @@ rollup-pluginutils@^2.8.2:
   dependencies:
     estree-walker "^0.6.1"
 
-rollup@2.33.x:
-  version "2.33.3"
-  resolved "https://registry.npmjs.org/rollup/-/rollup-2.33.3.tgz#ae72ce31f992b09a580072951bfea76e9df17342"
-  integrity sha512-RpayhPTe4Gu/uFGCmk7Gp5Z9Qic2VsqZ040G+KZZvsZYdcuWaJg678JeDJJvJeEQXminu24a2au+y92CUWVd+w==
+rollup@2.50.x:
+  version "2.50.5"
+  resolved "https://registry.npmjs.org/rollup/-/rollup-2.50.5.tgz#bbee9d6411af3f5fa5c6e7e2c69f7a65b753e568"
+  integrity sha512-Ztz4NurU2LbS3Jn5rlhnYv35z6pkjBUmYKr94fOBIKINKRO6kug9NTFHArT7jqwMP2kqEZ39jJuEtkk91NBltQ==
   optionalDependencies:
-    fsevents "~2.1.2"
+    fsevents "~2.3.1"
 
 rollup@^0.63.4:
   version "0.63.5"
