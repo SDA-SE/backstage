@@ -2367,7 +2367,7 @@
     remark-gfm "^1.0.0"
     zen-observable "^0.8.15"
 
-"@backstage/core-components@^0.4.2":
+"@backstage/core-components@^0.4.0", "@backstage/core-components@^0.4.2":
   version "0.4.2"
   resolved "https://registry.npmjs.org/@backstage/core-components/-/core-components-0.4.2.tgz#a80dceabdfb43b794b43d6436919688ff4da15ca"
   integrity sha512-WACyEaD+k2v2MEeJ52Kyj/Rw3a2agIqW9FXnYP+xCAWia8kw1cBX8eMXRblsEV8xwheTQzyd1lzeIpdkyGhhQg==
@@ -5264,13 +5264,13 @@
     react-use "^17.2.4"
 
 "@roadiehq/backstage-plugin-github-insights@^1.1.23":
-  version "1.1.23"
-  resolved "https://registry.npmjs.org/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-1.1.23.tgz#bcf7424df5a659df39d5aa75f5fffd8e02c9437e"
-  integrity sha512-3HL9nEtlaE+gFmV0xkrtZGbWHbS26z+NHzEk2KIyV8oqReQ+57PRLTVcXCjFA+djkKfP2hpu5s7zp72aVb0v+w==
+  version "1.1.25"
+  resolved "https://registry.npmjs.org/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-1.1.25.tgz#e56eb968f008dcfa09b6973518a6eda6ff72b914"
+  integrity sha512-hE2D+5+U0ur7uDvcsnOhEOd1+5joyDHmWtTL4K4F7fhtsmt/yjGxVBBaevGqXOPTMOfTO8bB7bVae1g/eUTMgQ==
   dependencies:
     "@backstage/catalog-model" "^0.9.0"
     "@backstage/core-app-api" "^0.1.3"
-    "@backstage/core-components" "^0.3.0"
+    "@backstage/core-components" "^0.4.0"
     "@backstage/core-plugin-api" "^0.1.3"
     "@backstage/plugin-catalog-react" "^0.4.0"
     "@backstage/theme" "^0.2.7"
