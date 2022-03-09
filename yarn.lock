@@ -5709,7 +5709,7 @@
     "@types/node" "*"
     "@types/ssh2" "*"
 
-"@types/dockerode@^3.2.5", "@types/dockerode@^3.3.0":
+"@types/dockerode@^3.2.7", "@types/dockerode@^3.3.0":
   version "3.3.3"
   resolved "https://registry.npmjs.org/@types/dockerode/-/dockerode-3.3.3.tgz#993de5d8bd3ecb0b0a9277cccc189e9a74e9fbd1"
   integrity sha512-DBFTE/wiZKodQhDrdkzLVT3K0X1JO/1fTxPaTQN0jiPNdTOFoPt8LYnuYEzalPgVpZbGEeuJTls7qn6jMvuydg==
@@ -10889,10 +10889,10 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
-docker-compose@^0.23.13:
-  version "0.23.13"
-  resolved "https://registry.npmjs.org/docker-compose/-/docker-compose-0.23.13.tgz#77d37bd05b6a966345f631e6d05e961c79514f06"
-  integrity sha512-/9fYC4g3AO+qsqxIZhmbVnFvJJPcYEV2yJbAPPXH+6AytU3urIY8lUAXOlvY8sl4u25pdKu1JrOfAmWC7lJDJg==
+docker-compose@^0.23.17:
+  version "0.23.17"
+  resolved "https://registry.npmjs.org/docker-compose/-/docker-compose-0.23.17.tgz#8816bef82562d9417dc8c790aa4871350f93a2ba"
+  integrity sha512-YJV18YoYIcxOdJKeFcCFihE6F4M2NExWM/d4S1ITcS9samHKnNUihz9kjggr0dNtsrbpFNc7/Yzd19DWs+m1xg==
   dependencies:
     yaml "^1.10.2"
 
@@ -23900,16 +23900,16 @@ test-exclude@^6.0.0:
     minimatch "^3.0.4"
 
 testcontainers@^8.1.2:
-  version "8.2.0"
-  resolved "https://registry.npmjs.org/testcontainers/-/testcontainers-8.2.0.tgz#41a9ff1b9a1fb50654eeec5478c0451a0179bcef"
-  integrity sha512-s+w9WtgAPHkuEo+eLKEynT3EutaHeGsVqdZCe5xLDFzklToBF/jcUcfIFmI4rxDUI1kJqSnjr0dALzETiqnU6w==
+  version "8.4.0"
+  resolved "https://registry.npmjs.org/testcontainers/-/testcontainers-8.4.0.tgz#3a964759908a45bb6b0c3c5ed55bcd9608a9e02d"
+  integrity sha512-QRXsjro71rNvzVpow1rHOsRDfeZz+h0stYOc4fhZVE5Qx7LQ/dxs/pNb2s+8HP1WyxT7Ox3u+vc75S9hCMSUeA==
   dependencies:
     "@types/archiver" "^5.1.1"
-    "@types/dockerode" "^3.2.5"
+    "@types/dockerode" "^3.2.7"
     archiver "^5.3.0"
     byline "^5.0.0"
-    debug "^4.3.2"
-    docker-compose "^0.23.13"
+    debug "^4.3.3"
+    docker-compose "^0.23.17"
     dockerode "^3.3.1"
     get-port "^5.1.1"
     glob "^7.2.0"
